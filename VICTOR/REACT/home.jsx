@@ -8,7 +8,7 @@ const Home = () => {
       <h1>Welcome to My Home Page</h1>
       <p>This is a simple React home page.</p>
       <img
-        src="https://placekitten.com/800/400" // Placeholder image (replace with your own image)
+        src="https://placekitten.com/800/400" 
         alt="Cute Kitten"
       />
     </div>
