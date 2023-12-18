@@ -5,7 +5,7 @@ import PortfolioPage from './PortfolioPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import PortfolioPage from './components/PortfolioPage';
-import AboutPage from './components/AboutPage';
+import About from './components/About';
 import ServicesPage from './components/ServicesPage';
 
 
@@ -15,7 +15,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/portfolio" component={PortfolioPage} />
-        <Route path="/about" component={AboutPage} />
+        <Route path="/about" component={About} />
         <Route path="/services" component={ServicesPage} />
         <Route path="/contact" component={ContactPage} />
       </Switch>
