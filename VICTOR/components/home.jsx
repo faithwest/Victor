@@ -1,6 +1,7 @@
 I// Home.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,3 +17,17 @@ const Home = () => {
 };
 
 export default Home;
+
+const Navbar = () => {
+  return (
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
