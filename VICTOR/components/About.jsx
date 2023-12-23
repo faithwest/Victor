@@ -9,9 +9,7 @@ const About = () => {
         Welcome to our website! We are dedicated to providing you with
         information about our company and what we do.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-        odio. Praesent libero. Sed cursus ante dapibus diam.
+      
       </p>
     </div>
   );
