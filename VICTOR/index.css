@@ -24,8 +24,4 @@ p {
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
-div {
-  width: 300px;
-  margin: auto;
-  border: 1px solid red;
-}
+
