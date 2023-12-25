@@ -19,13 +19,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="footer-section">
-            <h2>Contact Us</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 123-456-7890</p>
-          </div>
-        </div>
-
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
         </div>
